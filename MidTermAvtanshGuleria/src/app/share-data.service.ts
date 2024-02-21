@@ -4,6 +4,16 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ShareDataService {
-
-  constructor() { }
+  employeedata:any
+  constructor() {
+  
+    
+   }
+  getData(){
+    return this.employeedata
+  }
+  setData(data:any){
+    this.employeedata=data;
+    
+  }
 }
