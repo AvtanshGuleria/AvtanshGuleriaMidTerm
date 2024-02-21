@@ -17,7 +17,6 @@ input[type="text"], input[type="radio"], input[type="checkbox"] {
   
   button {
     display: block;
-   
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -25,7 +24,9 @@ input[type="text"], input[type="radio"], input[type="checkbox"] {
     border-radius: 5px;
     cursor: pointer;
   }
-  
+  img{
+    margin-left: 30%;
+  }
   button:hover {
     background-color: #0056b3;
   }

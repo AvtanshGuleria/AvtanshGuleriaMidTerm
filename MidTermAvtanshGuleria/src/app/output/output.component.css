@@ -29,6 +29,9 @@
   .output-value.yes {
     color: green;
   }
+  img{
+    margin-left: 30%;
+  }
   
   .output-value.no {
     color: red;
