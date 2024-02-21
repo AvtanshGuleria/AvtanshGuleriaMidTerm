@@ -1,0 +1,36 @@
+/* CSS for Output Page */
+.output-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .output-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .output-info {
+    margin-bottom: 10px;
+  }
+  
+  .output-label {
+    font-weight: bold;
+  }
+  
+  .output-value {
+    margin-left: 10px;
+  }
+  
+  .output-value.yes {
+    color: green;
+  }
+  
+  .output-value.no {
+    color: red;
+  }
+  

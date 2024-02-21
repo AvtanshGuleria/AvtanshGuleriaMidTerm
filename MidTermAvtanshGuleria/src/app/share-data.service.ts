@@ -15,5 +15,6 @@ export class ShareDataService {
   setData(data:any){
     this.employeedata=data;
     
+    
   }
 }

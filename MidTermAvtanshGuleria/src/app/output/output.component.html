@@ -1,9 +1,21 @@
 <app-header/>
-<h1>Output Page</h1>
-<div>
-  <strong>Employee Name:</strong> {{ dataDisplay.employeeName }}<br>
-  <strong>Employment Status:</strong> {{ dataDisplay.employmentStatus }}<br>
-  <strong>Certified:</strong> {{ dataDisplay.certified ? 'Yes' : 'No' }}
-</div>
+<div class="output-container">
+    <h1>Output Page</h1>
+    <div class="output-info">
+      <strong class="output-label">Employee Name:</strong>
+      <span class="output-value">{{ dataDisplay.employeeName }}</span>
+    </div>
+    <div class="output-info">
+      <strong class="output-label">Employment Status:</strong>
+      <span class="output-value">{{ dataDisplay.employmentStatus }}</span>
+    </div>
+    <div class="output-info">
+      <strong class="output-label">Certified:</strong>
+      <span class="output-value {{ dataDisplay.certified ? 'yes' : 'no' }}">
+        {{ dataDisplay.certified ? 'Yes' : 'No' }}
+      </span>
+    </div>
+  </div>
+  
 
 <app-footer/>
